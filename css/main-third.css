@@ -1,0 +1,131 @@
+.main_third--section {
+  background-image: url("../img/third--section-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+  position: relative;
+}
+
+.main_third--container {
+  width: 100%;
+  max-width: 951px;
+  margin: 0 auto;
+}
+
+.main_third--title {
+  padding-top: 25px;
+  padding-bottom: 24px;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card:nth-child(1) {
+  margin-left: 50px;
+  max-width: 255px;
+  background: linear-gradient(
+    136.55deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  border-radius: 15px;
+
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+}
+
+.card:nth-child(2) {
+  margin-left: 50px;
+  max-width: 255px;
+  background: linear-gradient(
+    136.55deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  border-radius: 15px;
+
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.card:nth-child(3) {
+  margin-left: 50px;
+  max-width: 255px;
+  background: linear-gradient(
+    142.67deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  border-radius: 15px;
+
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.card_content {
+  padding: 49px 14px 29px 13px;
+}
+
+.card_text {
+  max-width: 228px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.card_small-text {
+  margin-top: 8px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #d8d8d8;
+}
+
+.card_bottom {
+  display: flex;
+  margin-top: 47px;
+}
+
+.card_bottom-img {
+  margin-right: 5px;
+  object-fit: cover;
+}
+
+.card_bottom--title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: white;
+}
+
+.card_bottom--text {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  color: #d8d8d8;
+}
+
+.card_center {
+  display: flex;
+}
+
+.background_img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
