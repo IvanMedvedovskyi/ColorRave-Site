@@ -1,0 +1,54 @@
+.main_second--section {
+  background-image: url("/img/second-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_second--wrapper {
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.main_second--container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  border: 5px solid #8e32c6;
+}
+
+.main_second--card--wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 1110px;
+}
+
+.main_second--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_second--card:nth-child(1) {
+  border-right: 1px solid white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.main_second--card:nth-child(3) {
+  border-left: 1px solid white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.main_second--card--title {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47.99px;
+  text-align: center;
+  color: white;
+  max-width: 159px;
+  margin-bottom: 4px;
+}
